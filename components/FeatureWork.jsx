@@ -37,7 +37,7 @@ export default function FeatureWork() {
                 _dark={{ bg: "gray.700" }}
                 borderRadius="lg"
               >
-                <Image src="https://i.ibb.co/wzYn4CM/Screen-Shot-2022-02-18-at-3-08-30-PM.png" />
+                <Image src="https://i.ibb.co/wzYn4CM/Screen-Shot-2022-02-18-at-3-08-30-PM.png" alt="feature work image for recurrence" />
               </Box>
               <Box padding={6}>
                 <Text fontSize="sm" fontWeight="bold">
@@ -96,7 +96,7 @@ export default function FeatureWork() {
                 _dark={{ bg: "gray.700" }}
                 borderRadius="lg"
               >
-                <Image src="https://i.ibb.co/wzYn4CM/Screen-Shot-2022-02-18-at-3-08-30-PM.png" />
+                <Image src="https://i.ibb.co/wzYn4CM/Screen-Shot-2022-02-18-at-3-08-30-PM.png" alt="feature work image for onlyquotes" />
               </Box>
               <Box padding={6} minHeight="full">
                 <Text fontSize="sm" fontWeight="bold">

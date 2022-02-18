@@ -25,7 +25,7 @@ export default function AboutMe() {
           Hey, How are you?
         </Heading>
         <Text mt={4} fontSize="sm">
-          I'm{" "}
+          I&apos;m{" "}
           <Text fontWeight="bold" display="inline">
             Mason Schafer
           </Text>
