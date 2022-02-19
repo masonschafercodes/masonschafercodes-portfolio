@@ -8,12 +8,14 @@ import {
   Box,
   Link,
   Image,
+  useColorMode,
 } from "@chakra-ui/react";
 
 import Footer from "./Footer";
 import { ArrowSquareOut } from "phosphor-react";
 
 export default function FeatureWork() {
+  const { colorMode } = useColorMode();
   return (
     <Box>
       <Flex direction="column" mb={6}>
@@ -96,7 +98,7 @@ export default function FeatureWork() {
                 _dark={{ bg: "gray.700" }}
                 borderRadius="lg"
               >
-                <Image src="https://i.ibb.co/wzYn4CM/Screen-Shot-2022-02-18-at-3-08-30-PM.png" alt="feature work image for onlyquotes" />
+                <Image src={colorMode === 'dark' ?  "https://i.ibb.co/MN4WbmX/Screen-Shot-2022-02-19-at-11-26-10-AM.png" : "https://i.ibb.co/SXRkTFV/Screen-Shot-2022-02-19-at-11-30-54-AM.png"} alt="feature work image for onlyquotes" />
               </Box>
               <Box padding={6} minHeight="full">
                 <Text fontSize="sm" fontWeight="bold">
