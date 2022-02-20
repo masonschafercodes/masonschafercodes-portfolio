@@ -39,7 +39,10 @@ export default function FeatureWork() {
                 _dark={{ bg: "gray.700" }}
                 borderRadius="lg"
               >
-                <Image src="https://i.ibb.co/wzYn4CM/Screen-Shot-2022-02-18-at-3-08-30-PM.png" alt="feature work image for recurrence" />
+                <Image
+                  src="https://i.ibb.co/wzYn4CM/Screen-Shot-2022-02-18-at-3-08-30-PM.png"
+                  alt="feature work image for recurrence"
+                />
               </Box>
               <Box padding={6}>
                 <Text fontSize="sm" fontWeight="bold">
@@ -55,7 +58,13 @@ export default function FeatureWork() {
                   alignItems="center"
                   justifyContent="space-between"
                 >
-                  <Text fontSize="sm" fontWeight="bold" display="flex" alignItems="center" mt={2}>
+                  <Text
+                    fontSize="sm"
+                    fontWeight="bold"
+                    display="flex"
+                    alignItems="center"
+                    mt={2}
+                  >
                     <Link
                       href="https://recurrence.app/"
                       color="orange.500"
@@ -65,7 +74,10 @@ export default function FeatureWork() {
                       {" "}
                       View Site{" "}
                     </Link>{" "}
-                    <ArrowSquareOut style={{ marginLeft: 2 }} color="darkorange" />
+                    <ArrowSquareOut
+                      style={{ marginLeft: 2 }}
+                      color="darkorange"
+                    />
                   </Text>
                   <Text
                     fontSize="xs"
@@ -98,7 +110,14 @@ export default function FeatureWork() {
                 _dark={{ bg: "gray.700" }}
                 borderRadius="lg"
               >
-                <Image src={colorMode === 'dark' ?  "https://i.ibb.co/MN4WbmX/Screen-Shot-2022-02-19-at-11-26-10-AM.png" : "https://i.ibb.co/SXRkTFV/Screen-Shot-2022-02-19-at-11-30-54-AM.png"} alt="feature work image for onlyquotes" />
+                <Image
+                  src={
+                    colorMode === "dark"
+                      ? "https://i.ibb.co/MN4WbmX/Screen-Shot-2022-02-19-at-11-26-10-AM.png"
+                      : "https://i.ibb.co/SXRkTFV/Screen-Shot-2022-02-19-at-11-30-54-AM.png"
+                  }
+                  alt="feature work image for onlyquotes"
+                />
               </Box>
               <Box padding={6} minHeight="full">
                 <Text fontSize="sm" fontWeight="bold">
@@ -114,7 +133,13 @@ export default function FeatureWork() {
                   alignItems="center"
                   justifyContent="space-between"
                 >
-                  <Text fontSize="sm" fontWeight="bold" display="flex" alignItems="center" mt={2}>
+                  <Text
+                    fontSize="sm"
+                    fontWeight="bold"
+                    display="flex"
+                    alignItems="center"
+                    mt={2}
+                  >
                     <Link
                       href="https://github.com/masonschafercodes/onlyquotes"
                       color="orange.500"
@@ -124,7 +149,10 @@ export default function FeatureWork() {
                       {" "}
                       View Repo{" "}
                     </Link>{" "}
-                      <ArrowSquareOut style={{ marginLeft: 2 }} color="darkorange" />
+                    <ArrowSquareOut
+                      style={{ marginLeft: 2 }}
+                      color="darkorange"
+                    />
                   </Text>
                   <Text
                     fontSize="xs"
@@ -136,6 +164,77 @@ export default function FeatureWork() {
                     fontWeight="bold"
                   >
                     In Dev
+                  </Text>
+                </Flex>
+              </Box>
+            </Box>
+          </GridItem>
+          <GridItem
+            w="100%"
+            border="1px solid #D1D1D1"
+            _dark={{ borderColor: "gray.600" }}
+            borderRadius="lg"
+            opacity={0.85}
+            _hover={{ opacity: 1 }}
+          >
+            <Box>
+              <Box
+                overflow="hidden"
+                padding={3}
+                bg="purple.50"
+                _dark={{ bg: "gray.700" }}
+                borderRadius="lg"
+              >
+                <Image
+                  src="https://i.ibb.co/D1BB7Pn/Screen-Shot-2022-02-20-at-3-30-53-PM.png"
+                  alt="feature work image for onlyquotes"
+                />
+              </Box>
+              <Box padding={6} minHeight="full">
+                <Text fontSize="sm" fontWeight="bold">
+                  CoCreatr
+                </Text>
+                <Text fontSize="sm" fontWeight="light" color="gray.500">
+                  CoCreatr is a tool to help teams track task collaboration
+                  better. This is the first SaaS that I ever built with my
+                  knowledge of Typescript and React.
+                </Text>
+                <Flex
+                  direction="row"
+                  alignItems="center"
+                  justifyContent="space-between"
+                >
+                  <Text
+                    fontSize="sm"
+                    fontWeight="bold"
+                    display="flex"
+                    alignItems="center"
+                    mt={2}
+                  >
+                    <Link
+                      href="https://github.com/masonschafercodes/cocreatr"
+                      color="orange.500"
+                      fontWeight="bold"
+                      isExternal
+                    >
+                      {" "}
+                      View Repo{" "}
+                    </Link>{" "}
+                    <ArrowSquareOut
+                      style={{ marginLeft: 2 }}
+                      color="darkorange"
+                    />
+                  </Text>
+                  <Text
+                    fontSize="xs"
+                    casing="uppercase"
+                    bg="yellow.100"
+                    color="yellow.500"
+                    px={1}
+                    borderRadius="lg"
+                    fontWeight="bold"
+                  >
+                    Repo
                   </Text>
                 </Flex>
               </Box>
