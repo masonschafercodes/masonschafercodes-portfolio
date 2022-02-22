@@ -240,6 +240,76 @@ export default function FeatureWork() {
               </Box>
             </Box>
           </GridItem>
+          <GridItem
+            w="100%"
+            border="1px solid #D1D1D1"
+            _dark={{ borderColor: "gray.600" }}
+            borderRadius="lg"
+            opacity={0.85}
+            _hover={{ opacity: 1 }}
+          >
+            <Box>
+              <Box
+                overflow="hidden"
+                padding={3}
+                bg="purple.50"
+                _dark={{ bg: "gray.700" }}
+                borderRadius="lg"
+              >
+                <Image
+                  src="https://i.ibb.co/qB2W7Cw/Screen-Shot-2022-02-22-at-12-53-24-AM.png"
+                  alt="feature work image for dev-chatr"
+                />
+              </Box>
+              <Box padding={6} minHeight="full">
+                <Text fontSize="sm" fontWeight="bold">
+                  Dev-Chatr
+                </Text>
+                <Text fontSize="sm" fontWeight="light" color="gray.500">
+                  An application used to chat with other developers around the
+                  world (Anonymously)
+                </Text>
+                <Flex
+                  direction="row"
+                  alignItems="center"
+                  justifyContent="space-between"
+                >
+                  <Text
+                    fontSize="sm"
+                    fontWeight="bold"
+                    display="flex"
+                    alignItems="center"
+                    mt={2}
+                  >
+                    <Link
+                      href="https://github.com/masonschafercodes/dev-chatr"
+                      color="orange.500"
+                      fontWeight="bold"
+                      isExternal
+                    >
+                      {" "}
+                      View Repo{" "}
+                    </Link>{" "}
+                    <ArrowSquareOut
+                      style={{ marginLeft: 2 }}
+                      color="darkorange"
+                    />
+                  </Text>
+                  <Text
+                    fontSize="xs"
+                    casing="uppercase"
+                    bg="yellow.100"
+                    color="yellow.500"
+                    px={1}
+                    borderRadius="lg"
+                    fontWeight="bold"
+                  >
+                    Repo
+                  </Text>
+                </Flex>
+              </Box>
+            </Box>
+          </GridItem>
         </Grid>
       </Flex>
       <Footer />
