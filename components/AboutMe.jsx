@@ -59,7 +59,7 @@ export default function AboutMe() {
           </Text>
           <Text mt={2} fontSize="sm">
             📄 Grab my{" "}
-            <Link href="/resume.pdf" color="orange.500" fontWeight="bold">
+            <Link href="/resume-2022.pdf" color="orange.500" fontWeight="bold">
               Resume
             </Link>
           </Text>
