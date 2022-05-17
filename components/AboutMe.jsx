@@ -36,14 +36,14 @@ export default function AboutMe() {
         </Text>
         <Box>
           <Text mt={6} fontSize="sm">
-            👉 Currently an IT Support Specialist{" "}
+            👉 Currently a Software Engineer{" "}
             <Link
-              href="https://www.zingashome.com/"
+              href="https://monsterconnect.com/"
               color="orange.500"
               fontWeight="bold"
               isExternal
             >
-              @Zingas Home Solutions
+              @MonsterConnect
             </Link>
           </Text>
           <Text mt={2} fontSize="sm">
