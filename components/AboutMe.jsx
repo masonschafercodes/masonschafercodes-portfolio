@@ -13,7 +13,7 @@ import FeatureWork from "./FeatureWork";
 export default function AboutMe() {
   return (
     <Flex alignItems="center" justifyContent="center" width="full">
-      <Box width="xl" mt={24}>
+      <Box width="xl" mt={21}>
         <Image
           borderRadius="full"
           boxSize="60px"
@@ -29,10 +29,30 @@ export default function AboutMe() {
           <Text fontWeight="bold" display="inline">
             Mason Schafer
           </Text>
-          , an inovator and a developer. During the day I strive to support my
-          team on their projects and to learn new things. During the night I
-          spend my time hanging out with the people I love and building side
-          projects.
+          , I enjoy working on personal projects in my free time. I mainly focus
+          on backend development, but I also enjoy frontend development on an
+          occasion. I also enjoy going to the gym and walking outside with my
+          girlfriend. I am currently learning some{" "}
+          <Text as="strong" color="orange.500">
+            Go
+          </Text>{" "}
+          and{" "}
+          <Text as="strong" color="orange.500">
+            Rust
+          </Text>{" "}
+          for fun on the side. At work I use{" "}
+          <Text as="strong" color="orange.500">
+            Typescript
+          </Text>
+          ,{" "}
+          <Text as="strong" color="orange.500">
+            Javascript
+          </Text>
+          , and some{" "}
+          <Text as="strong" color="orange.500">
+            Ruby on Rails
+          </Text>{" "}
+          most of the time.
         </Text>
         <Box>
           <Text mt={6} fontSize="sm">

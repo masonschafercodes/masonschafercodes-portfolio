@@ -1,9 +1,4 @@
-import {
-  Flex,
-  Link,
-  Box,
-  IconButton,
-} from "@chakra-ui/react";
+import { Flex, Link, Box, IconButton } from "@chakra-ui/react";
 import { TwitterLogo, LinkedinLogo, GithubLogo } from "phosphor-react";
 
 export default function Footer() {
@@ -20,42 +15,42 @@ export default function Footer() {
       >
         <Box display="flex" alignItems="center" justifyContent="center">
           <Link href="https://www.linkedin.com/in/masonschafer/" isExternal>
-          <IconButton
-            aria-label="Linkedin Logo"
-            variant={"ghost"}
-            display={{ base: "none", md: "flex" }}
-            borderRadius="full"
-            mr="0.3rem"
-            color="orange.400"
-            icon={<LinkedinLogo size={19} weight="bold" />}
-          />
+            <IconButton
+              aria-label="Linkedin Logo"
+              variant={"ghost"}
+              display={{ base: "none", md: "flex" }}
+              borderRadius="full"
+              mr="0.3rem"
+              color="orange.400"
+              icon={<LinkedinLogo size={19} weight="bold" />}
+            />
           </Link>
         </Box>
         <Box display="flex" alignItems="center" justifyContent="center">
-          <Link href="https://twitter.com/schadev_" isExternal>  
-          <IconButton
-            aria-label="Twitter Logo"
-            variant={"ghost"}
-            display={{ base: "none", md: "flex" }}
-            borderRadius="full"
-            mr="0.3rem"
-            color="orange.400"
-            icon={<TwitterLogo size={19} weight="bold" />}
+          <Link href="https://twitter.com/qwadebot" isExternal>
+            <IconButton
+              aria-label="Twitter Logo"
+              variant={"ghost"}
+              display={{ base: "none", md: "flex" }}
+              borderRadius="full"
+              mr="0.3rem"
+              color="orange.400"
+              icon={<TwitterLogo size={19} weight="bold" />}
             />
-            </Link>
+          </Link>
         </Box>
         <Box display="flex" alignItems="center" justifyContent="center">
           <Link href="https://github.com/masonschafercodes" isExternal>
-          <IconButton
-            aria-label="Github logo"
-            variant={"ghost"}
-            display={{ base: "none", md: "flex" }}
-            borderRadius="full"
-            mr="0.3rem"
-            color="orange.400"
-            icon={<GithubLogo size={19} weight="bold" />}
+            <IconButton
+              aria-label="Github logo"
+              variant={"ghost"}
+              display={{ base: "none", md: "flex" }}
+              borderRadius="full"
+              mr="0.3rem"
+              color="orange.400"
+              icon={<GithubLogo size={19} weight="bold" />}
             />
-            </Link>
+          </Link>
         </Box>
       </Flex>
     </Box>
