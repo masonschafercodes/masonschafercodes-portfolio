@@ -20,10 +20,10 @@ export const featuredWorkData = [
     link: "https://github.com/masonschafercodes/go-logger",
   },
   {
-    featuredWorkTitle: "otulink",
+    featuredWorkTitle: "PongHQ",
     featuredWorkDescription:
-      "A basic link shortener build with NextJS and Prisma/Postgresql",
+      "A virtual communicaiton platform for business teams.",
     linkText: "View Live",
-    link: "https://www.otulink.app/",
+    link: "https://www.ponghq.com/",
   },
 ];
