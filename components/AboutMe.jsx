@@ -29,10 +29,8 @@ export default function AboutMe() {
           <Text fontWeight="bold" display="inline">
             Mason Schafer
           </Text>
-          , I enjoy working on personal projects in my free time. I mainly focus
-          on backend development, but I also enjoy frontend development on an
-          occasion. I also enjoy going to the gym and walking outside with my
-          girlfriend. I am currently learning some{" "}
+          , I enjoy working on personal projects in my free time. I am in love with building things and learning along the way. I also enjoy going to the gym and walking outside with my
+          Fiancé. I am currently learning some{" "}
           <Text as="strong" color="orange.500">
             Go
           </Text>{" "}
