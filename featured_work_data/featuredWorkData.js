@@ -22,7 +22,7 @@ export const featuredWorkData = [
   {
     featuredWorkTitle: "PongHQ",
     featuredWorkDescription:
-      "A virtual communicaiton platform for business teams.",
+      "A virtual communication platform for business teams.",
     linkText: "View Live",
     link: "https://www.ponghq.com/",
   },
