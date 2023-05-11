@@ -18,7 +18,7 @@ export default function AboutMe() {
           borderRadius="full"
           boxSize="60px"
           mb={6}
-          src="https://i.ibb.co/7kPQGVT/icon.png"
+          src="https://i.imgur.com/wntmdSg.jpeg"
           alt="Mason Schafer"
         />
         <Heading as="h3" size="md">
