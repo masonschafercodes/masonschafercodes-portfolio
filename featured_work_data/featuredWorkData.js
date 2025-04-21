@@ -1,29 +1,16 @@
 export const featuredWorkData = [
   {
-    featuredWorkTitle: "cozzzy",
+    featuredWorkTitle: "Ray Tracing in One Weekend",
     featuredWorkDescription:
-      "NextJS, Typescript, Prisma, w/ Auth opensource template for SAAS projects",
+      "This project is a simple implementation of the concepts from Peter Shirley's Ray Tracing in One Weekend book series. The series is an excellent introduction to ray tracing and consists of three books.",
     linkText: "View Repo",
-    link: "https://github.com/masonschafercodes/cozzzy",
+    link: "https://github.com/masonschafercodes/weekend-raytracer",
   },
   {
-    featuredWorkTitle: "pwned-client",
+    featuredWorkTitle: "OrangeCal",
     featuredWorkDescription:
-      "Light-weight client for pwned passwords API.  Built with Golang",
+      "OrangeCal is a Discord bot designed to manage reminders and notifications within a Discord server.",
     linkText: "View Repo",
-    link: "https://github.com/masonschafercodes/pwned-client",
-  },
-  {
-    featuredWorkTitle: "go-logger",
-    featuredWorkDescription: "Go package for better logging",
-    linkText: "View Repo",
-    link: "https://github.com/masonschafercodes/go-logger",
-  },
-  {
-    featuredWorkTitle: "PongHQ",
-    featuredWorkDescription:
-      "A virtual communication platform for business teams.",
-    linkText: "View Live",
-    link: "https://www.ponghq.com/",
+    link: "https://github.com/masonschafercodes/orange-cal",
   },
 ];
