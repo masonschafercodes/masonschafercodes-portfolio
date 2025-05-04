@@ -22,8 +22,8 @@
 
 <div class="h-screen w-screen overflow-hidden bg-gray-900">
 	<div class="flex min-h-full justify-center">
-		<div class="flex w-full max-w-6xl flex-col py-12">
-			<div class="flex items-center justify-between">
+		<div class="flex w-full max-w-6xl flex-col px-2 py-6 md:py-12">
+			<div class="flex flex-col md:flex-row md:justify-between">
 				<h1 class="font-header text-3xl text-gray-100">Hello and Welcome!</h1>
 				<QuickLinks />
 			</div>
