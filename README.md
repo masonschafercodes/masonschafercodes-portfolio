@@ -1,15 +1,38 @@
-# Portfolio
+# sv
 
-My project portfolio
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Project Status
+## Creating a project
 
-This project is always being updated with the new work that I create.
+If you're seeing this, you've probably already done this step. Congrats!
 
-## Project Screen Shot
+```bash
+# create a new project in the current directory
+npx sv create
 
-![portfolio project screenshot of homescreen](https://i.ibb.co/4fML1PK/Screen-Shot-2022-02-22-at-1-42-10-PM.png)
+# create a new project in my-app
+npx sv create my-app
+```
 
-## Check it out
+## Developing
 
-[https://masonschafer.tech/](https://masonschafer.tech/)
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.

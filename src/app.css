@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap');
+
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--font-header: 'Cal Sans', 'sans-serif';
+	--font-code: 'Geist Mono', 'monospace';
+	--font-geist: 'Geist', 'sans-serif';
+}
